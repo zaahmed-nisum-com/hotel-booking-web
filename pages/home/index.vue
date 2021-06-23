@@ -5,18 +5,18 @@
       :key="hotel.id"
       class="col-sm-12 col-md-4 col-lg-3 col-xl-2 p-2"
     >
-      <HotelPageCards :data="hotel" />
+      <HotelListingPageCards :data="hotel" />
     </div>
   </div>
 </template>
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
-import HotelPageCards from '../../components/cards/hotel-page-card'
+import HotelListingPageCards from '../../components/cards/hotel-list-page-card'
 
 export default {
   components: {
-    HotelPageCards,
+    HotelListingPageCards,
   },
   methods: {
     ...mapActions(['hotels/getHotels']),
