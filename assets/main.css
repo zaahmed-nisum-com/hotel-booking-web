@@ -1,4 +1,110 @@
-.a-link{
-    color: black;
-    text-decoration: none;
+.a-link {
+  color: black;
+  text-decoration: none;
+}
+.small-icon {
+  font-size: 15px;
+}
+
+.mediume-icon {
+  font-size: 20px;
+}
+
+.large-icon {
+  font-size: 25px;
+}
+
+.pad-2 {
+  padding: 2px;
+}
+
+.mar-2 {
+  margin: 2px;
+}
+
+.activeFavourite {
+  color: #f70101;
+}
+
+.activeLike {
+  color: #0088ff;
+}
+
+.social-icon-instagram :hover {
+  color: #f70101;
+}
+
+.social-icon-fb :hover {
+  color: #0088ff;
+}
+
+.social-icon-twitter :hover {
+  color: #0088ff;
+}
+
+.open-icon {
+  transition: font-size 0.5s;
+}
+
+.open-icon:hover {
+  font-size: 20px;
+}
+
+input[type='text'] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+input[type='password'] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type='text']:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type='text']:placeholder {
+  color: #cccccc;
+}
+
+input[type='password']:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type='password']:placeholder {
+  color: #cccccc;
 }
