@@ -1,6 +1,10 @@
 <template>
-  <div class="row">
-    <div v-for="packageItem in hotel" :key="packageItem.id">
+  <div class="row m-0">
+    <div
+      class="col-sm-12 col-md-12 col-lg-6 col-xl-6"
+      v-for="packageItem in hotel"
+      :key="packageItem.id"
+    >
       <SingleHotelDetailPageCard data="packageItem" />
     </div>
   </div>

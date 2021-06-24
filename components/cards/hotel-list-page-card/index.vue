@@ -1,5 +1,5 @@
 <template>
-  <div class="hotel-main-card-container bordered">
+  <div class="hotel-main-card-container border p-2">
     <img src="https://fakeimg.pl/400x300/" />
     <div class="d-flex p-2">
       <font-awesome-icon
@@ -36,7 +36,8 @@
           class="small-icon mar-2 social-icon-instagram"
         />
       </div>
-      <NuxtLink to="zain">
+      <!-- <NuxtLink to="this.data.id"> -->
+      <nuxt-link :to="this.data.title">
         <div class="d-flex mr-2">
           <font-awesome-icon
             style="position: absolute"
@@ -44,7 +45,8 @@
             class="small-icon open-icon mr-2"
           />
         </div>
-      </NuxtLink>
+      </nuxt-link>
+      <!-- </NuxtLink> -->
     </div>
   </div>
 </template>
@@ -65,6 +67,10 @@ export default {
 </script>
 
 <style>
+.hotel-main-card-container {
+  box-shadow: 4px 2px 9px -2px #d8d8d8;
+  border-radius: 2px;
+}
 .hotel-main-card-container img {
   width: 100%;
 }

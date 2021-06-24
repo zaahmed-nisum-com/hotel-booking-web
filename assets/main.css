@@ -22,6 +22,30 @@
   margin: 2px;
 }
 
+.mar-4 {
+  margin: 4px;
+}
+
+.mar-5 {
+  margin: 6px;
+}
+
+.font-size-xsmall {
+  font-size: 10px;
+}
+
+.font-size-small {
+  font-size: 15px;
+}
+
+.font-size-medium {
+  font-size: 20px;
+}
+
+.font-size-large {
+  font-size: 25px;
+}
+
 .activeFavourite {
   color: #f70101;
 }
@@ -48,6 +72,23 @@
 
 .open-icon:hover {
   font-size: 20px;
+}
+
+.font-montserrat {
+  font-family: 'Benne', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.category-chips {
+  background-color: #00a1ff;
+  padding: 4px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 input[type='text'] {

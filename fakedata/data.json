@@ -7,7 +7,45 @@
       "location": "",
       "isAllBooked": false,
       "isAvaliable": true,
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "room": [
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        }
+      ]
     },
     {
       "id": 2,
@@ -16,7 +54,45 @@
       "location": "",
       "isAllBooked": false,
       "isAvaliable": true,
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "room": [
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        }
+      ]
     },
     {
       "id": 3,
@@ -25,7 +101,45 @@
       "location": "",
       "isAllBooked": false,
       "isAvaliable": true,
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "room": [
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        }
+      ]
     },
     {
       "id": 4,
@@ -34,7 +148,45 @@
       "location": "",
       "isAllBooked": false,
       "isAvaliable": true,
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "room": [
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        }
+      ]
     },
     {
       "id": 5,
@@ -43,7 +195,45 @@
       "location": "",
       "isAllBooked": false,
       "isAvaliable": true,
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "room": [
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        },
+        {
+          "title": "",
+          "location": "",
+          "description": "",
+          "sturcture": {
+            "guestsRoom": "1 Guests",
+            "bedRoom": "1 BedRoom",
+            "bath": "1 BathRoom"
+          },
+          "ratting": 2,
+          "packages": [{}, {}]
+        }
+      ]
     }
   ]
 }
