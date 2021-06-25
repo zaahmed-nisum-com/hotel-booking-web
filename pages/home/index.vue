@@ -1,11 +1,11 @@
 <template>
-  <div class="main-hotels-container row m-0">
+  <div class="main-hotels-container row m-0" style="height: 100vh">
     <div
       v-for="hotel in this['hotels/hotlesGetter']"
       :key="hotel.id"
       class="col-sm-12 col-md-4 col-lg-3 col-xl-2 p-2"
     >
-      <HotelListingPageCards :data="hotel" />
+      <HotelListingPageCards :data="hotel" :theme="common" />
     </div>
   </div>
 </template>
@@ -18,15 +18,18 @@ export default {
   components: {
     HotelListingPageCards,
   },
-  methods: {
-    ...mapActions(['hotels/getHotels']),
+  data() {
+    return {
+      common: {},
+    }
   },
-  computed: mapGetters(['hotels/hotlesGetter']),
+  computed: mapGetters(['hotels/hotlesGetter', 'common/commonGetter']),
   created() {
     this['hotels/getHotels']()
+    this.common = this['common/commonGetter']
   },
-  mounted() {
-    console.log(this['hotels/hotlesGetter'])
+  methods: {
+    ...mapActions(['hotels/getHotels']),
   },
 }
 </script>

@@ -41,8 +41,6 @@ const actions = {
 const mutations = {
   authMutation: (state, data) => {
     state.auth = { isLogin: true, token: 'token', refreshToken: 'refreshToken' }
-    console.log(state)
-    console.log(data)
   },
 }
 

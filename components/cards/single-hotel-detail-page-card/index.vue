@@ -1,9 +1,16 @@
 <template>
-  <div class="single-hotel-detail-card-container row m-0 p-2">
+  <div
+    class="single-hotel-detail-card-container row m-0 p-2 border m-2 rounded"
+    v-bind:style="[
+      this.theme.theme == 'light'
+        ? { backgroundColor: themeConstants.lightTheme.cardBg }
+        : { backgroundColor: themeConstants.darkTheme.cardBg },
+    ]"
+  >
     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
       <div class="d-flex justify-content-between">
         <p class="m-0 font-montserrat">Apartment</p>
-        <Button title="Book now" />
+        <Button title="Book now" :theme="this.theme" :isIcon="false" />
       </div>
       <!-- title ,location -->
       <div class="d-flex ml-2 mt-3 mb-3 mb-2 align-items-center">
@@ -77,7 +84,13 @@
     <!-- packges -->
     <div class="d-flex col-12 align-items-center justify-content-between">
       <div class="d-flex">
-        <Button isIcon="true" title="Send Message" />
+        <Button
+          :theme="this.theme"
+          isIcon="true"
+          iconName="comment-alt"
+          iconType="fas"
+          title="Send Message"
+        />
       </div>
       <div class="d-flex">
         <div class="d-flex">
@@ -107,15 +120,25 @@
 
 <script>
 import Button from '../../buttons/roundButton'
+import themeConstants from '../../../config/theme'
 
 export default {
   components: {
     Button,
   },
+  props: ['data', 'theme'],
+  data: () => {
+    return {
+      themeConstants,
+    }
+  },
 }
 </script>
 
 <style scoped>
+.single-hotel-detail-card-container {
+  box-shadow: 2px 2px 8px -6px grey;
+}
 .hotel-intro-image-container img {
   width: 100%;
 }

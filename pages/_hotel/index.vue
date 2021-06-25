@@ -5,12 +5,13 @@
       v-for="packageItem in hotel"
       :key="packageItem.id"
     >
-      <SingleHotelDetailPageCard data="packageItem" />
+      <SingleHotelDetailPageCard data="packageItem" :theme="common" />
     </div>
   </div>
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex'
 import fakeData from '../../fakedata/data.json'
 import SingleHotelDetailPageCard from '../../components/cards/single-hotel-detail-page-card'
 
@@ -18,12 +19,18 @@ export default {
   components: {
     SingleHotelDetailPageCard,
   },
-  created() {
-    console.log(fakeData.hotel)
-  },
-
   data: () => {
-    return { hotel: fakeData.hotel }
+    return {
+      common: {},
+      hotel: fakeData.hotel,
+    }
+  },
+  computed: mapGetters(['common/commonGetter']),
+  created() {
+    this.common = this['common/commonGetter']
+  },
+  methods: {
+    ...mapActions(['hotels/getHotels']),
   },
 }
 </script>

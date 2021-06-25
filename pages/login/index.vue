@@ -62,7 +62,6 @@ export default {
   methods: {
     ...mapActions(['auth/login']),
     handleLogin(e) {
-      console.log('handleLogin')
       e.preventDefault()
       this['auth/login']({ email: this.email, password: this.password })
     },

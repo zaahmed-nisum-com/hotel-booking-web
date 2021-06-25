@@ -6,8 +6,11 @@ const theme = {
     horizontalLineSeparator: '#e6e6e6',
     blue_lig: '#0088ff',
     red_lig: '#f70101',
-    btnBlue: '#00a1ff',
-    textColor: '#000000',
+    btnBg: '#00a1ff',
+    textColor: 'white',
+    cardBg: '#ebf7ff',
+    text: 'black',
+    iconUnActiveColor: '#F0F0F0',
   },
   darkTheme: {
     headerBgColor: 'black',
@@ -15,9 +18,12 @@ const theme = {
     hrefLinkColor: 'white',
     horizontalLineSeparator: 'fbfbfb',
     blue_lig: '#add9ff',
+    btnBg: '#ffff',
     red_lig: '#ffa8a8',
     btnBlue: '#ffffff',
-    textColor: '#ffffff',
+    cardBg: '#ADDEFF',
+    textColor: '#000000',
+    text: 'white',
   },
 }
 export default theme

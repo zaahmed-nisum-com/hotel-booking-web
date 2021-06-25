@@ -1,16 +1,27 @@
 <template>
-  <div class="hotel-main-card-container border p-2">
+  <div
+    class="hotel-main-card-container border p-2"
+    v-bind:style="[
+      theme.theme == 'light'
+        ? { backgroundColor: themeConstants.lightTheme.cardBg }
+        : { backgroundColor: 'light' },
+    ]"
+  >
     <img src="https://fakeimg.pl/400x300/" />
     <div class="d-flex p-2">
       <font-awesome-icon
         :icon="['fas', 'heart']"
-        v-bind:class="[isFavourite ? 'activeFavourite' : '']"
+        :v-bind:class="[isFavourite ? 'activeFavourite' : '']"
         class="small-icon mar-2"
+        :v-bind:style="[
+          theme.theme == 'light' ? { color: '#F0F0F0' } : { color: '#F0F0F0' },
+        ]"
       />
       <font-awesome-icon
+        :v-bind:style="[{ color: 'red' }]"
         :icon="['fas', 'thumbs-up']"
         class="small-icon mar-2"
-        v-bind:class="[isLiked ? 'activeLike' : '']"
+        :v-bind:class="[isLiked ? 'activeLike' : '']"
       />
       <font-awesome-icon
         :icon="['fas', 'info-circle']"
@@ -52,16 +63,16 @@
 </template>
 
 <script>
+import themeConstants from '../../../config/theme'
+
 export default {
+  props: ['data', 'theme'],
   data: () => {
     return {
       isLiked: true,
       isFavourite: true,
+      themeConstants,
     }
-  },
-  props: ['data'],
-  created() {
-    console.log(this.data)
   },
 }
 </script>
